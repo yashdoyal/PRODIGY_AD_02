@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="40sp"
+        android:hint="Enter task" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5px"
+        android:textSize="40sp"
+        android:text="Add"
+        android:layout_below="@id/editTextTask" />
+
+    <Button
+        android:id="@+id/imageViewDelete"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:text="Delete"
+        android:textSize="30sp">
+    </Button>
+
+
+
+</RelativeLayout>
